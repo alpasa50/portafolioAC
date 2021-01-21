@@ -53,12 +53,6 @@ class About extends Component {
           <div className="three columns header-col">
             <h1>Organizacion interna de una computadora</h1>
           </div>
-          <div className="nine columns main-col">trabajo</div>
-        </div>
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1>Componentes del computador</h1>
-          </div>
           <div className="nine columns main-col">
             <ol>
               <li>CPU (Central Process Unit)</li>
@@ -93,15 +87,104 @@ class About extends Component {
         </div>
         <div className="row work">
           <div className="three columns header-col">
+            <h1>Componentes del computador</h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Sistemas Numéricos que maneja una computadora.</h3>
+                <table class="default">
+                  <tr>
+                    <th>Setup</th>
+                    <th>CMOS</th>
+                    <th>BIOS</th>
+                  </tr>
+
+                  <tr>
+                    <td style={{ padding: 5 }}>
+                      Este término tiende confundirse con los demás, pero no es
+                      más que la configuración que tienen cada uno de ambos,
+                      podemos realizar un SETUP tanto al CMOS como al BIOS
+                    </td>
+
+                    <td style={{ padding: 15 }}>
+                      Es la encargada de mantener la información configurada y
+                      siempre esta cargando cuando la computadora esta encendida
+                    </td>
+
+                    <td style={{ padding: 25 }}>
+                      La BIOS de la placa madre contiene las instrucciones de
+                      inicio de la computadora y solo se puede modificar con
+                      actualizaciones directamente para la BIOS. El BIOS puede
+                      modificar el CMOS.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row work">
+          <div className="three columns header-col">
             <h1>ASM</h1>
           </div>
-          <div className="nine columns main-col">trabajo</div>
+
+          <div className="nine columns main-col">
+            <h3>Control de lectura AI</h3>
+            <h6>
+              Hasta hace un tiempo las computadoras eran solamente dispositivos
+              que recibían instrucciones de los dispositivos de entrada y
+              salida, pasado un tiempo los científicos y profesionales en el
+              área se han enfocado en descubrir como pueden duplicar el cerebro
+              humano en una máquina, la cuestión en si es, como pueden crear
+              inteligencia, para saber como crear inteligencia primero tienen
+              que tener una definición clara de que es la inteligencia, ser
+              inteligente es hacer muchos cálculos rápidamente o poder pensar y
+              tener criterio, siempre tendré esa pregunta a la primera persona
+              que se concentro en el primer algoritmo de regresión lineal para
+              simular inteligencia, desde mi punto de vista, la IA no es más que
+              eso, muchos cálculos que puede realizar una computadora para
+              simular la inteligencia del hombre, ahora bien, seria sencillo
+              mencionarlo así pero la cosa se complica, porque esos “cálculos”
+              pueden ver más allá de otras dimensiones que todavía no hemos
+              descubierto. En general hay 3 tipos de Inteligencia artificial o
+              machine learning, el primero sería el aprendizaje supervisado, el
+              cual, como su nombre lo indica, es aquel en el que el programador
+              tiene que estar verificando siempre los resultados que muestra el
+              modelo para que tenga la menor cantidad de errores posibles y
+              perfeccione en la tarea en cuestión, el segundo es el no
+              supervisado, contrario al que acabo de mencionar, este se enfoca
+              en que la maquina se de cuenta de sus errores y con ensayo y error
+              mejore cada vez mas y por ultimo el reforzado que se enfoca solo
+              en pruebas y mas pruebas, este ultimo puede llegar hasta un poco
+              más profundo como el aprendizaje profundo que va más allá de los
+              mencionados anteriormente.
+            </h6>
+          </div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
             <h1>Elementos principales del procesador</h1>
           </div>
-          <div className="nine columns main-col">trabajo</div>
+          <div className="nine columns main-col">
+            <h3>ALU</h3>
+            <h6>
+              Se define a la unidad ALU (por sus siglas en inglés Arithmetic
+              Logic Unit) como una de las unidades que forman parte de la Unidad
+              Central de Procesos mediante la cual es posible realizar una gran
+              cantidad de operaciones aritméticas básicas (Suma, Resta, División
+              y Multiplicación) además de realizar algunas operaciones Lógicas
+            </h6>
+            <h3>Power Supply</h3>
+            <ol>
+              <li>El estándar ATX</li>
+              <li>Conector de 4 pines para CPU</li>
+              <li>Conector de 8 pines para CPU</li>
+              <li>Conector Molex</li>
+              <li>Conector SATA de energía</li>
+              <li>Conector para unidades Floppy</li>
+            </ol>
+          </div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
