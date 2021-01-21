@@ -190,13 +190,54 @@ class About extends Component {
           <div className="three columns header-col">
             <h1>Sistema de una computadora. -CLI-</h1>
           </div>
-          <div className="nine columns main-col">trabajo</div>
+          <div className="nine columns main-col">
+            <h5>¿Cómo saber la fecha de instalación de un PC?</h5>
+            <h8>systeminfo | find /i "Original" (Original Install Date)</h8>
+            <h5>¿Cuántas horas tiene encendida?</h5>
+            <h8>systeminfo | find "Boot Time" (System Boot Time)</h8>
+            <h5>¿Quién está conectado a mí Puertos?</h5>
+            <h8>Netstat -a</h8>
+            <h5>
+              ¿Cómo identificar variables del entorno de un sistema operativo y
+              como utilizarla?
+            </h5>
+            <h8>
+              Path y para utilizarlas solo debemos escribir el nombre que nos
+              muestra
+            </h8>
+            <h5>¿Cómo tomar la dirección física de la PC?</h5>
+            <h8>Ipconfig /all</h8>
+          </div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
             <h1>Arquitectura de propósito general</h1>
           </div>
-          <div className="nine columns main-col">trabajo</div>
+          <div className="nine columns main-col">
+            <h3>Organizacion del computador</h3>
+            <ol>
+              <li>Procesador</li>
+              <ol>
+                <li type="circle">Organización de los registros</li>
+                <li type="circle">Unidad aritmética y lógica</li>
+                <li type="circle">Unidad de control</li>
+              </ol>
+              <li>Memoria Principal</li>
+              <ol>
+                <li type="circle">Memoria para la pila</li>
+                <li type="circle">
+                  Memoria para la tabla de vectores de interrupción
+                </li>
+              </ol>
+              <li>Unidad de entrada/salida(E/S)</li>
+              <li>Sistema de interconexión</li>
+            </ol>
+            <h3>Registros</h3>
+            <li type="circle">Registros de propósito general.</li>
+            <li type="circle">Registros de instrucción.</li>
+            <li type="circle">Registros de acceso a memoria.</li>
+            <li type="circle">Registros de estado y de control.</li>
+          </div>
         </div>
       </section>
     );
