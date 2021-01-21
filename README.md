@@ -18,4 +18,4 @@ Luego de descargar asegurate estar en la carpeta del proyecto `cd yourappname` y
 
 #### Design Template
 
-<a href="https://github.com/tbakerx/react-resume-template">Ceevee Template by Tim Baker</a>
+<a href="https://github.com/tbakerx/react-resume-template">Template by Tim Baker</a>
