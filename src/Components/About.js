@@ -51,39 +51,70 @@ class About extends Component {
 
         <div className="row work">
           <div className="three columns header-col">
-            <h1>Circuitos lógicos
-            </h1>
-          </div>
-          <div className="nine columns main-col">trabajo</div>
-        </div>
-
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1>Circuitos lógicos
-            </h1>
+            <h1>Organizacion interna de una computadora</h1>
           </div>
           <div className="nine columns main-col">trabajo</div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
-            <h1>Circuitos lógicos
-            </h1>
+            <h1>Componentes del computador</h1>
+          </div>
+          <div className="nine columns main-col">
+            <ol>
+              <li>CPU (Central Process Unit)</li>
+              <ul>
+                <li type="square">Placa base</li>
+                <li type="square">Disco duro</li>
+                <li type="square">Tarjetas</li>
+                <li type="square">Lector de CD/DVD</li>
+                <li type="square">Fuente de alimentación</li>
+                <li type="square">Cables</li>
+              </ul>
+              <li>Periféricos</li>
+              <ol>
+                <li type="square">Entrada de datos</li>
+                <ol>
+                  <li type="circle">Teclado</li>
+                  <li type="circle">Ratón</li>
+                  <li type="circle">Escáner</li>
+                  <li type="circle">Cámara</li>
+                  <li type="circle">Router</li>
+                </ol>
+                <li type="square">Salida de datos</li>
+                <ol>
+                  <li type="circle">Pantalla</li>
+                  <li type="circle">Altavoces</li>
+                  <li type="circle">Impresora</li>
+                  <li type="circle">Router</li>
+                </ol>
+              </ol>
+            </ol>
+          </div>
+        </div>
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>ASM</h1>
           </div>
           <div className="nine columns main-col">trabajo</div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
-            <h1>Circuitos lógicos
-            </h1>
+            <h1>Elementos principales del procesador</h1>
           </div>
           <div className="nine columns main-col">trabajo</div>
-        </div><div className="row work">
-        <div className="three columns header-col">
-          <h1>Circuitos lógicos
-          </h1>
         </div>
-        <div className="nine columns main-col">trabajo</div>
-      </div>
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>Sistema de una computadora. -CLI-</h1>
+          </div>
+          <div className="nine columns main-col">trabajo</div>
+        </div>
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>Arquitectura de propósito general</h1>
+          </div>
+          <div className="nine columns main-col">trabajo</div>
+        </div>
       </section>
     );
   }
